@@ -1,0 +1,57 @@
+{
+  "sources": [
+    "Travel Reimbursement Policy. Employees can claim travel reimbursement within 30 days of the trip. Claims above Rs. 50,000 require approval from the finance head. Original receipts must be uploaded as PDF files on the expense portal. Economy class air travel is allowed for trips longer than 500 km; trains must be used for shorter trips.",
+    "Leave Policy. Full-time employees receive 24 days of paid annual leave per calendar year. Up to 8 unused days can be carried forward to the next year. Sick leave of more than 3 consecutive days requires a medical certificate. Leave requests must be submitted at least 7 days in advance, except for emergencies.",
+    "IT Security Policy. Passwords must be at least 12 characters long and are rotated every 90 days. Multi-factor authentication is mandatory for VPN and email access. Company laptops must have full-disk encryption enabled. Lost devices must be reported to the IT helpdesk within 24 hours.",
+    "Returns and Refunds Policy. Customers can return unused products within 15 days of delivery for a full refund. Refunds are credited to the original payment method within 7 working days. Digital downloads and gift cards are not eligible for return. Shipping charges are refunded only if the product arrived damaged."
+  ],
+  "claims": [
+    {"text": "Travel reimbursement can be claimed up to 30 days after the trip.", "label": "SUPPORTED"},
+    {"text": "The finance head must approve claims over Rs. 50,000.", "label": "SUPPORTED"},
+    {"text": "Receipts have to be uploaded in PDF format on the expense portal.", "label": "SUPPORTED"},
+    {"text": "For trips shorter than 500 km, employees must travel by train.", "label": "SUPPORTED"},
+    {"text": "Employees can claim travel reimbursement within 60 days of the trip.", "label": "CONTRADICTED"},
+    {"text": "Claims above Rs. 50,000 do not need any approval.", "label": "CONTRADICTED"},
+    {"text": "Receipts must be uploaded as JPEG images.", "label": "CONTRADICTED"},
+    {"text": "Economy class air travel is allowed for trips shorter than 500 km.", "label": "CONTRADICTED"},
+    {"text": "Employees receive a daily food allowance of Rs. 1,000 during trips.", "label": "UNSUPPORTED"},
+    {"text": "Hotel bookings must be made through the company travel desk.", "label": "UNSUPPORTED"},
+    {"text": "International travel requires approval from the CEO.", "label": "UNSUPPORTED"},
+
+    {"text": "Each full-time employee gets 24 paid annual leave days per year.", "label": "SUPPORTED"},
+    {"text": "Employees may carry up to 8 unused leave days into the next year.", "label": "SUPPORTED"},
+    {"text": "A medical certificate is needed for sick leave longer than 3 consecutive days.", "label": "SUPPORTED"},
+    {"text": "Leave must be requested at least a week in advance unless it is an emergency.", "label": "SUPPORTED"},
+    {"text": "Full-time employees receive 30 days of paid annual leave per year.", "label": "CONTRADICTED"},
+    {"text": "Unused leave days cannot be carried forward to the next year.", "label": "CONTRADICTED"},
+    {"text": "A medical certificate is required only for sick leave longer than 10 days.", "label": "CONTRADICTED"},
+    {"text": "Leave requests can be submitted on the same day without notice.", "label": "CONTRADICTED"},
+    {"text": "Employees get 26 weeks of paid maternity leave.", "label": "UNSUPPORTED"},
+    {"text": "Unused leave is paid out in cash at the end of the year.", "label": "UNSUPPORTED"},
+    {"text": "Part-time employees receive 12 days of annual leave.", "label": "UNSUPPORTED"},
+
+    {"text": "Passwords need a minimum of 12 characters.", "label": "SUPPORTED"},
+    {"text": "Passwords are changed every 90 days.", "label": "SUPPORTED"},
+    {"text": "MFA is required for VPN and email.", "label": "SUPPORTED"},
+    {"text": "A lost device must be reported to the IT helpdesk within one day.", "label": "SUPPORTED"},
+    {"text": "Passwords must be at least 8 characters long.", "label": "CONTRADICTED"},
+    {"text": "Multi-factor authentication is optional for email access.", "label": "CONTRADICTED"},
+    {"text": "Company laptops do not need disk encryption.", "label": "CONTRADICTED"},
+    {"text": "Lost devices must be reported within 7 days.", "label": "CONTRADICTED"},
+    {"text": "Employees may not install personal software on company laptops.", "label": "UNSUPPORTED"},
+    {"text": "Security awareness training is held every quarter.", "label": "UNSUPPORTED"},
+    {"text": "USB storage devices are blocked on all company computers.", "label": "UNSUPPORTED"},
+
+    {"text": "Unused products can be returned within 15 days of delivery for a full refund.", "label": "SUPPORTED"},
+    {"text": "Refunds reach the original payment method within 7 working days.", "label": "SUPPORTED"},
+    {"text": "Gift cards cannot be returned.", "label": "SUPPORTED"},
+    {"text": "Shipping charges are refunded when the product arrives damaged.", "label": "SUPPORTED"},
+    {"text": "Customers can return unused products within 30 days of delivery.", "label": "CONTRADICTED"},
+    {"text": "Refunds are issued as store credit instead of to the original payment method.", "label": "CONTRADICTED"},
+    {"text": "Digital downloads are eligible for return.", "label": "CONTRADICTED"},
+    {"text": "Shipping charges are always refunded.", "label": "CONTRADICTED"},
+    {"text": "Customers must pay a 10% restocking fee on returns.", "label": "UNSUPPORTED"},
+    {"text": "Returns can be dropped off at any partner store.", "label": "UNSUPPORTED"},
+    {"text": "Refund requests are handled by a dedicated support team available 24/7.", "label": "UNSUPPORTED"}
+  ]
+}
