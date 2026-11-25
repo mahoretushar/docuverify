@@ -1,0 +1,17 @@
+services:
+  pgvector:
+    image: 'pgvector/pgvector:pg18'
+    environment:
+      - 'POSTGRES_DB=docuverify'
+      - 'POSTGRES_USER=docuverify'
+      - 'POSTGRES_PASSWORD=docuverify'
+    ports:
+      - '5432:5432'
+  ollama:
+    image: 'ollama/ollama:latest'
+    ports:
+      - '11434:11434'
+    volumes:
+      - ollama:/root/.ollama
+volumes:
+  ollama:
